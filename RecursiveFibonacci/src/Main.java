@@ -25,7 +25,7 @@ public class Main {
         }
 
         // Call recursive method
-        output = RecFibonacci.recursive(n);
+        output = recursive(n);
 
         // Print the output with the grammatically correct position term.
         if (n == 1) {
@@ -38,5 +38,15 @@ public class Main {
             System.out.println("The " + n + "th term of the Fibonacci sequence is " + output + ".");
         }
 
+    }
+    
+    public static int recursive(int n) {
+        if (n <= 0) {
+            return 0;
+        } else if (n == 1) {
+            return 1;
+        } else {
+            return recursive(n-1) + recursive(n-2);
+        }
     }
 }
