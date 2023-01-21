@@ -1,6 +1,14 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
 public class Main {
+    /**
+     * The main method will ask for the user to input a number representing a position in the Fibonacci sequence.
+     * That number, n, will then be passed to the recursive method for calculation.
+     * The final output will be displayed to the user.
+     * @author Natasha Phyle
+     * @param args used for the compiler to accept any command line arguments passed through while executing the program.
+     */
     public static void main(String[] args) {
 
         int n = 0, output;
@@ -39,7 +47,13 @@ public class Main {
         }
 
     }
-    
+
+    /**
+     * The following method will accept the following parameters and return the value of the Fibonacci sequence in that position.
+     * @author Natasha Phyle
+     * @param n the position of the Fibonnaci sequence provided by the user
+     * @return the value of the Fibonacci sequence at position n
+     */
     public static int recursive(int n) {
         if (n <= 0) {
             return 0;
