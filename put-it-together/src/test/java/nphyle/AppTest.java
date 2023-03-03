@@ -1,20 +1,29 @@
 package nphyle;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+    
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void testIsValid() {
+        int position = 10;
+
+        boolean expected = true;
+        boolean actual = App.IsValid(position);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testRecursive() {
+        int position = 10;
+
+        int expected = 55;
+        int actual = App.recursive(position);
+
+        assertEquals(expected, actual);
     }
 }
