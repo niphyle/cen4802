@@ -26,6 +26,8 @@ public class App
             }
         }
 
+        scan.close();
+
         // Call recursive method
         output = recursive(n);
 
