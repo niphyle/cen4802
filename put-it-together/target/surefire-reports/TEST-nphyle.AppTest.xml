@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="nphyle.AppTest" time="0.046" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="nphyle.AppTest" time="0.035" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="e:\Valencia College\Spring2023\SoftwareInt\Module7\PutItTogether\cen4802\put-it-together\target\test-classes;e:\Valencia College\Spring2023\SoftwareInt\Module7\PutItTogether\cen4802\put-it-together\target\classes;C:\Users\n_ibr\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\n_ibr\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="E:\Valencia College\Spring2023\SoftwareInt\Module7\PutItTogether\cen4802\put-it-together\target\test-classes;E:\Valencia College\Spring2023\SoftwareInt\Module7\PutItTogether\cen4802\put-it-together\target\classes;C:\Users\n_ibr\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\n_ibr\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18\bin"/>
-    <property name="sun.java.command" value="C:\Users\n_ibr\AppData\Local\Temp\surefire9252706567088085396\surefirebooter735292370633737658.jar C:\Users\n_ibr\AppData\Local\Temp\surefire9252706567088085396 2023-03-03T13-41-54_579-jvmRun1 surefire15576555135978720503tmp surefire_07160186806008357038tmp"/>
+    <property name="sun.java.command" value="C:\Users\n_ibr\AppData\Local\Temp\surefire14420611331280007828\surefirebooter3183203806512299721.jar C:\Users\n_ibr\AppData\Local\Temp\surefire14420611331280007828 2023-03-05T19-52-36_113-jvmRun1 surefire4871694789295000830tmp surefire_05838672535545594999tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="e:\Valencia College\Spring2023\SoftwareInt\Module7\PutItTogether\cen4802\put-it-together\target\test-classes;e:\Valencia College\Spring2023\SoftwareInt\Module7\PutItTogether\cen4802\put-it-together\target\classes;C:\Users\n_ibr\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\n_ibr\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="E:\Valencia College\Spring2023\SoftwareInt\Module7\PutItTogether\cen4802\put-it-together\target\test-classes;E:\Valencia College\Spring2023\SoftwareInt\Module7\PutItTogether\cen4802\put-it-together\target\classes;C:\Users\n_ibr\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\n_ibr\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\n_ibr"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2022-03-22"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-18"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="e:\Valencia College\Spring2023\SoftwareInt\Module7\PutItTogether\cen4802\put-it-together"/>
+    <property name="basedir" value="E:\Valencia College\Spring2023\SoftwareInt\Module7\PutItTogether\cen4802\put-it-together"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\n_ibr\AppData\Local\Temp\surefire9252706567088085396\surefirebooter735292370633737658.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\n_ibr\AppData\Local\Temp\surefire14420611331280007828\surefirebooter3183203806512299721.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18+36-2087"/>
@@ -44,7 +44,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\n_ibr\AppData\Local\Temp\"/>
     <property name="java.version" value="18"/>
-    <property name="user.dir" value="e:\Valencia College\Spring2023\SoftwareInt\Module7\PutItTogether\cen4802\put-it-together"/>
+    <property name="user.dir" value="E:\Valencia College\Spring2023\SoftwareInt\Module7\PutItTogether\cen4802\put-it-together"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -56,6 +56,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="testIsValid" classname="nphyle.AppTest" time="0.005"/>
+  <testcase name="testIsValid" classname="nphyle.AppTest" time="0.003"/>
   <testcase name="testRecursive" classname="nphyle.AppTest" time="0"/>
 </testsuite>

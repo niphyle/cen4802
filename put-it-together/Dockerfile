@@ -1,5 +1,4 @@
-FROM openjdk:11
+FROM openjdk:11-jre-slim
 WORKDIR /app
-COPY /src/main/java/nphyle/App.java .
-RUN javac App.java
-ENTRYPOINT ["java", "App"]
+COPY target/put-it-together-1.0-SNAPSHOT.jar /app
+CMD ["java", "-jar", "put-it-together-1.0-SNAPSHOT.jar"]
