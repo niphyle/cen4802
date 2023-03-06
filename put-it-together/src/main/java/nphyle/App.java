@@ -7,26 +7,26 @@ public class App
 {
     public static void main( String[] args )
     {
-        int n = 0, output; 
+        int n = 8, output; 
         boolean validInput = false;
 
-        Scanner scan = new Scanner(System.in);
+        //Scanner scan = new Scanner(System.in);
 
         // Accept user input and check for invalid input
         while (!validInput) {
             try {
-                System.out.println("Please enter the position of the Fibonacci sequence you would like to see the value of.");
-                n = scan.nextInt();
-                scan.nextLine();
+                //System.out.println("Please enter the position of the Fibonacci sequence you would like to see the value of.");
+                //n = scan.nextInt();
+                //scan.nextLine();
                 validInput = IsValid(n);
 
             } catch (InputMismatchException e){
                 System.out.println("Invalid input, please enter a positive integer.");
-                scan.next();
+                //scan.next();
             }
         }
 
-        scan.close();
+        //scan.close();
 
         // Call recursive method
         output = recursive(n);
